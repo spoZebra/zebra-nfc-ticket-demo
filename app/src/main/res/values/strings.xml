@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Zebra NFC Ticket Demo</string>
+    <string name="ready_read_nfc_pass">Ready - Read NFC Pass</string>
 </resources>
