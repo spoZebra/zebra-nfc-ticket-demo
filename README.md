@@ -3,7 +3,11 @@
 Simple PoC developed to demonstrate Zebra mobile computer's capability of reading non-payment related items (Passes) via NFC directly from Google and Apple digital wallets.
 Passes are not limited to Event tickets only but Boarding passes, Loyalty cards, Ski tickets, Mobile Driver licenses, etc.
 
-Zebra VAS SDK allows our customers to read any pass from a digital Wallet out of the box quickly: there is no need to implement Smart Tap and Apple VAS protocols as our VAS Service takes care of everything!
+**Zebra VAS SDK allows our customers to read any pass from a digital Wallet out of the box quickly: there is no need to implement Smart Tap and Apple VAS protocols as our VAS Service takes care of everything!**
+
+Moreover, you can read any NFC tag together with a digital Wallet (hybrid mode):
+- Read Pass from a Digital Wallet
+- Read a physical NFC card (card enabled by default are: NfcA, NfcB, NfcV and IsoDep)
 
 ### Official Resources
 - Registration of my presentation at DevCon 2023 in Madrid: [Link to video](https://www.zebra.com/content/dam/zebra_dam/en/video/web-production/zebra-devcon2023-video-website-emc-introducing-the-new-zebra-apple-nfc-vas-sdk-simone-pozzobon-en-us.mp4)
@@ -30,7 +34,7 @@ GOOGLESMARTAPP_PRIVATE_KEY="-----BEGIN EC PRIVATE KEY----- Your Google private k
 GOOGLESMARTAPP_KEY_VERSION="Your Google private key version"
 GOOGLESMARTAPP_COLLECTOR_ID="Youre Google Collector ID"
 ```
-- Run the app and read your pass :)
+- Run the app and read your pass/badge :)
 
 
 
