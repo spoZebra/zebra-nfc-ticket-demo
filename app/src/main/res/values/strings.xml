@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Zebra NFC Ticket Demo</string>
-    <string name="ready_read_nfc_pass">Ready - Read NFC Pass</string>
+    <string name="ready_read_nfc_pass">Ready - Read a pass or badge</string>
+    <string name="vas_service_not_found">Error - VAS Service NOT found\nInstall service and restart the app</string>
 </resources>
